@@ -2,7 +2,7 @@ import { ArrowRight, UploadSimple } from "@phosphor-icons/react";
 
 function Sidebar() {
   return (
-    <aside className=" row-span-2  bg-[#30353C] text-white flex flex-col">
+    <aside className=" row-span-2  bg-zinc-950 text-white flex flex-col">
       <section className="py-8 px-6">
         <h1 className="text-3xl uppercase ">
           How good are your{" "}

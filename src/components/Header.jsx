@@ -3,9 +3,9 @@ import logo from "../assets/logo.svg";
 
 function Header() {
   return (
-    <header className="col-span-2  flex items-center w-full">
-      <img src={logo} alt="logo" className="ml-6 mr-12" />
-      <form className="bg-gray-300 flex items-center p-2 h-6 rounded-md">
+    <header className="col-span-2  flex items-center w-full ">
+      <img src={logo} alt="logo" className="ml-6 mr-12 cursor-pointer" />
+      <form className="bg-gray-300 flex items-center p-2 h-8 rounded-xl">
         <input
           type="text"
           placeholder="Search Photos"
