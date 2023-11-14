@@ -2,7 +2,7 @@ import { ArrowRight, UploadSimple } from "@phosphor-icons/react";
 
 function Sidebar() {
   return (
-    <aside className=" row-span-2  bg-zinc-950 text-white flex flex-col">
+    <aside className=" row-span-2  bg-zinc-950 text-white flex flex-col order-1 sm:order-2 md:order-none">
       <section className="py-8 px-6">
         <h1 className="text-3xl uppercase ">
           How good are your{" "}
@@ -56,17 +56,13 @@ function Sidebar() {
           </a>
         </p>
       </section>
-      <div className="w-full bg-white h-[1px] my-4" />
+      <div className="w-full bg-white h-[1px] my-4 hidden md:block" />
       <section className="flex-1 p-4 justify-center items-center flex ">
-        <div className="flex flex-col w-full  justify-center items-center border border-dashed h-full cursor-pointer">
+        <div className="flex flex-col w-full  justify-center items-center border border-dashed h-full cursor-pointer p-20 sm:p-0">
           <UploadSimple size={28} />
           <p>Drag and drop photo</p>
         </div>
       </section>
-      <div className="w-full bg-white h-[1px] my-4" />
-      <footer className="flex justify-center items-center">
-        <p> ~ Filipe Avanzzo ~</p>
-      </footer>
     </aside>
   );
 }
